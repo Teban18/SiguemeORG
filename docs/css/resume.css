@@ -17,6 +17,10 @@ body {
   }
 }
 
+.img-fluid{
+  transition:all .5s ease-in-out;
+}
+
 h1,
 h2,
 h3,
