@@ -10,7 +10,7 @@ var imagenes =
    
    //Funcion para cambiar la imagen de manera aleatoria
     
-   function rotarImagenes()
+   function rotateImage()
    {
        var index=Math.floor((Math.random()*imagenes.length));
        document.getElementById("img").src=imagenes[index];
@@ -18,13 +18,14 @@ var imagenes =
    }
       
     //Función que se ejecuta una vez cargada la página
+    //carga link de contacto e imagenes
     
     onload=function()
     {
-        rotarImagenes();
+        rotateImage();
         setContactLink();
-        setInterval(rotarImagenes,20000);
-        setInterval(setContactLink,20000);
+        setInterval(rotateImage(),20000);
+        setInterval(setContactLink(),20000);
     }
    
    

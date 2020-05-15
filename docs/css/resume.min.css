@@ -6,10 +6,11 @@
 body
 {
      font-family:Muli,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
-     font-size: 1rem;
+     font-size: auto;
      text-align: center;
      padding-top:54px;
-     color:#000
+     color: #000;
+     background-color: white;
 }
 @media (min-width:992px)
 {
@@ -30,33 +31,46 @@ h6
     font-weight:700;
     text-transform:uppercase;
     text-align: center;
+    font-size: 3.5rem;
     color:#074e95
 }
 h1
 {
-    font-size:6rem;
-    line-height:5.5rem
+    font-size:4.6rem;
+    line-height:4rem
 }
 h2
 {
-    font-size:3.5rem
+    font-size:auto
 }
 h3
 {
-    font-size:2rem
+    font-size:auto
 }
 p.lead
 {
-    font-size:1.15rem;
-    font-weight:400
+    font-size:auto;
+    font-weight:400;
+    text-align: center;
+    color: rgb(6, 62, 136);
+}
+p.leadlevel2
+{
+    text-align: justify;
 }
 .subheading
 {
     text-transform:uppercase;
     text-align: center;
-    font-weight:500;
-    font-family:Arial Narrow, sans-serif;
-    font-size:1.5rem
+    font-weight:700;
+    font-family:Muli,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+    font-size:0.8rem;
+    color: rgb(6, 62, 136);
+}
+.subheadinglevel2
+{
+    color: #bd5d38;
+    text-align: justify;
 }
 .social-icons a
 {
@@ -66,11 +80,9 @@ p.lead
     background-color:#000;
     color:#fff!important;
     border-radius:100%;
-    text-align:center;
     font-size:1.5rem;
     line-height:3.5rem;
-    margin-right:2rem;
-
+    margin-right:1.5rem;
 }
 .social-icons a:last-child
 {
@@ -97,7 +109,7 @@ p.lead
 }
 #sideNav .navbar-toggler:focus
 {
-    outline-color:#d48a6e
+    outline-color:#000000
 }
 @media (min-width:992px)
 {
@@ -192,7 +204,10 @@ section.resume-section .resume-item .resume-date
 {
     min-width:none
 }
-@media (min-width:768px)
+section.resume-section .resume-item p.text{
+    color:hotpink;
+}
+@media (min-width:700px)
 {
     section.resume-section
     {
@@ -203,6 +218,7 @@ section.resume-section .resume-item .resume-date
         min-width:18rem
     }
 }
+
 @media (min-width:992px)
 {
     section.resume-section
@@ -217,14 +233,16 @@ section.resume-section .resume-item .resume-date
 }
 .text-primary
 {
-    color:#000000!important
+    color:#000000!important;
+    font-weight: 500;
+    font-size: auto;
 }
 a
 {
-    color:#bd5d38
+    color:#000000
 }
 a:active,a:focus,a:hover
 {
-    color:#824027
+    color:#000000
 }
 
