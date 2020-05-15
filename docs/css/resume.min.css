@@ -3,15 +3,18 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
-body{
+body
+{
      font-family:Muli,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
      font-size: 1rem;
      text-align: center;
      padding-top:54px;
      color:#000
-    }
-@media (min-width:992px){
-    body{
+}
+@media (min-width:992px)
+{
+    body
+    {
         padding-top:0;
         padding-left:17rem
     }
@@ -21,35 +24,42 @@ h2,
 h3,
 h4,
 h5,
-h6{
+h6
+{
     font-family:'Saira Extra Condensed',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
     font-weight:700;
     text-transform:uppercase;
     text-align: center;
     color:#074e95
 }
-h1{
+h1
+{
     font-size:6rem;
     line-height:5.5rem
 }
-h2{
+h2
+{
     font-size:3.5rem
 }
-h3{
+h3
+{
     font-size:2rem
 }
-p.lead{
+p.lead
+{
     font-size:1.15rem;
     font-weight:400
 }
-.subheading{
+.subheading
+{
     text-transform:uppercase;
     text-align: center;
     font-weight:500;
     font-family:Arial Narrow, sans-serif;
     font-size:1.5rem
 }
-.social-icons a{
+.social-icons a
+{
     display:-webkit-inline-box;
     height:4rem;
     width:4rem;
@@ -62,29 +72,37 @@ p.lead{
     margin-right:2rem;
 
 }
-.social-icons a:last-child{
+.social-icons a:last-child
+{
     margin-right:0
 }
-.social-icons a:hover{
+.social-icons a:hover
+{
     background-color:white;
     color: #000!important;
 }
-.dev-icons{
+.dev-icons
+{
     font-size:3rem
 }
-.dev-icons .list-inline-item i:hover{
+.dev-icons .list-inline-item i:hover
+{
     color:#bd5d38
 }
-#sideNav .navbar-nav .nav-item .nav-link{
+#sideNav .navbar-nav .nav-item .nav-link
+{
     font-weight:800;
     letter-spacing:.05rem;
     text-transform:uppercase
 }
-#sideNav .navbar-toggler:focus{
+#sideNav .navbar-toggler:focus
+{
     outline-color:#d48a6e
 }
-@media (min-width:992px){
-    #sideNav{
+@media (min-width:992px)
+{
+    #sideNav
+    {
         text-align:center;
         position:fixed;
         top:0;
@@ -94,12 +112,14 @@ p.lead{
         width:17rem;
         height:100vh
     }
-    #sideNav .navbar-brand{
+    #sideNav .navbar-brand
+    {
         display:flex;
         margin:auto auto 0;
         padding:.5rem
     }
-    #sideNav .navbar-brand .img-fluid{ 
+    #sideNav .navbar-brand .img-fluid
+    { 
         /*
         Este atributo define la imagen en escala de grises
         */
@@ -113,7 +133,8 @@ p.lead{
         -webkit-transition: width 2s, height 2s, transform 2s;
         -o-transition: width 2s, height 2s, transform 2s
     }
-    #sideNav .navbar-brand .img-fluid:hover{ 
+    #sideNav .navbar-brand .img-fluid:hover
+    { 
         /*
         Con la acción hover el color de la imagen se satura
         es decir se le da color
@@ -128,66 +149,82 @@ p.lead{
         -webkit-transform : scale(1.2);
         -o-transform : scale(1.2)
     }
-    #sideNav .navbar-collapse{
+    #sideNav .navbar-collapse
+    {
         display:flex;
         align-items:flex-start;
         flex-grow:0;
         width:100%;
         margin-bottom:auto
     }
-    #sideNav .navbar-collapse .navbar-nav{
+    #sideNav .navbar-collapse .navbar-nav
+    {
         flex-direction:column;
         width:100%
     }
-    #sideNav .navbar-collapse .navbar-nav .nav-item{
+    #sideNav .navbar-collapse .navbar-nav .nav-item
+    {
         display:block
     }
-    #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link{
+    #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link
+    {
         display: block;    
         transition: width 1s, height 1s, transform 1s;
         -moz-transition: width 1s, height 1s, transform 1s;
         -webkit-transition: width 1s, height 1s, transform 1s;
         -o-transition: width 1s, height 1s, transform 1s 
     }
-    #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link:hover{
+    #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link:hover
+    {
         transform : scale(1.09);
         -moz-transform : scale(1.09);
         -webkit-transform : scale(1.09);
         -o-transform : scale(1.0) 
     }
 }
-section.resume-section{
+section.resume-section
+{
     padding-top:5rem!important;
     padding-bottom:5rem!important;
     max-width: width auto;
 }
-section.resume-section .resume-item .resume-date{
+section.resume-section .resume-item .resume-date
+{
     min-width:none
 }
-@media (min-width:768px){
-    section.resume-section{
+@media (min-width:768px)
+{
+    section.resume-section
+    {
         min-height:100vh
     }
-    section.resume-section .resume-item .resume-date{
+    section.resume-section .resume-item .resume-date
+    {
         min-width:18rem
     }
 }
-@media (min-width:992px){
-    section.resume-section{
+@media (min-width:992px)
+{
+    section.resume-section
+    {
         padding-top:0rem!important;
         padding-bottom:3rem!important
     }
 }
-.bg-primary{
+.bg-primary
+{
     background-color:#000000!important;
 }
-.text-primary{
+.text-primary
+{
     color:#000000!important
 }
-a{
+a
+{
     color:#bd5d38
 }
-a:active,a:focus,a:hover{
+a:active,a:focus,a:hover
+{
     color:#824027
 }
 
