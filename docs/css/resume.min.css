@@ -16,7 +16,7 @@ body
 {
     body
     {
-        padding-top:0;
+        padding-top:1;
         padding-left:17rem
     }
 }
@@ -36,7 +36,7 @@ h6
 }
 h1
 {
-    font-size:4.6rem;
+    font-size:4.1rem;
     line-height:4rem
 }
 h2
@@ -69,18 +69,18 @@ p.leadlevel2
 }
 .subheadinglevel2
 {
-    color: #bd5d38;
+    color: #2947ac;
     text-align: justify;
 }
 .social-icons a
 {
     display:-webkit-inline-box;
-    height:4rem;
-    width:4rem;
-    background-color:#000;
-    color:#fff!important;
+    height:3rem;
+    width:3rem;
+    background-color:#fff;
+    color:pink!important;
     border-radius:100%;
-    font-size:1.5rem;
+    font-size:3rem;
     line-height:3.5rem;
     margin-right:1.5rem;
 }
@@ -91,15 +91,16 @@ p.leadlevel2
 .social-icons a:hover
 {
     background-color:white;
-    color: #000!important;
+    color: darkorange!important;
 }
 .dev-icons
 {
-    font-size:3rem
+    font-size:3rem;
+    color: pink;
 }
 .dev-icons .list-inline-item i:hover
 {
-    color:#bd5d38
+    color: darkorange
 }
 #sideNav .navbar-nav .nav-item .nav-link
 {
@@ -211,7 +212,7 @@ section.resume-section .resume-item p.text{
 {
     section.resume-section
     {
-        min-height:100vh
+        min-height:100vh;
     }
     section.resume-section .resume-item .resume-date
     {
