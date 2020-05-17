@@ -1,0 +1,15 @@
+{
+    "person":
+    [
+        {
+            "name":"Esteban",
+            "linkedin":"https://www.linkedin.com/in/andr%C3%A9s-esteban-posada-rinc%C3%B3n-94424b1a7/",
+            "github":"https://github.com/Teban18"
+        },
+        {
+            "name":"Marcela",
+            "linkedin":"https://www.linkedin.com/in/marcela-bula-torres-416401157/",
+            "github":"https://github.com/MarcelaBulaT"
+        }
+    ]
+}

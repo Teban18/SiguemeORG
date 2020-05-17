@@ -1,0 +1,190 @@
+{
+    "textdata":
+    [  
+      {
+        "type":"title",
+        "elementid":"page-name",
+        "text":"SafelyD"
+      },
+      {
+        "type":"h2",
+        "elementid":"functional-title",
+        "text":"Requerimientos funcionales"
+      },
+      {
+        "type":"h2",
+        "elementid":"nonfunctional-title",
+        "text":"Requerimientos no funcionales"
+      },
+      {
+        "type":"h3",
+        "elementid":"nonfunctional-subtitle1",
+        "text":"Interfaces de usuario"
+      },
+      {
+        "type":"h3",
+        "elementid":"nonfunctional-subtitle2",
+        "text":"Interfaces de comunicación"
+      },
+      {
+        "type":"h3",
+        "elementid":"nonfunctional-subtitle3",
+        "text":"Requisitos de desempeño"
+      },
+      {
+        "type":"h3",
+        "elementid":"nonfunctional-subtitle4",
+        "text":"Seguridad"
+      },
+      {
+        "type":"h3",
+        "elementid":"nonfunctional-subtitle5",
+        "text":"Portabilidad"
+      },
+      {
+        "type":"h3",
+        "elementid":"nonfunctional-subtitle6",
+        "text":"Mantenibilidad"
+      },
+      {
+        "type":"div",
+        "elementid":"subtitle",
+        "text":"donaciones seguras · Se transparente"
+      },
+      {
+        "type":"div",
+        "elementid":"functional-item1",
+        "text":"<b>E</b>l sistema deberá permitir donaciones mediante criptomonedas digitales y otras monedas tradicionales, generando al donante más posibilidades referentes a la transacción."
+      },
+      {
+        "type":"div",
+        "elementid":"functional-item2",
+        "text":"<b>E</b>l sistema debe  permitir la gestión de donantes y organizaciones con el fin de garantizar los roles adecuados."
+      },
+      {
+        "type":"div",
+        "elementid":"functional-item3",
+        "text":"<b>E</b>l sistema deberá permitir la gestión de causas que actuarán como representación digital de las obras sociales."
+      },
+      {
+        "type":"div",
+        "elementid":"functional-item4",
+        "text":"<b>E</b>l sistema debe permitir la visualización del histórico de operaciones al interior de las causas (proyectos), con el fin de generar empatía con el donante."
+      },
+      {
+        "type":"p",
+        "elementid":"description",
+        "text":"Pretendemos volver las donaciones un flujo donde todos ganan · Agradecimientos a el tutor Juan Pablo Ospina"
+      },
+      {
+        "type":"p",
+        "elementid":"functional-item1-subitem1",
+        "text":"Si un usuario requiere hacer una donación, entonces el sistema deberá obligarle a registrarse para poder realizar la transacción."
+      },
+      {
+        "type":"p",
+        "elementid":"functional-item1-subitem2",
+        "text":"Ejecución: este acceso otorga al usuario el privilegio de ejecutar transacciones, opciones o módulos."
+      },
+      {
+        "type":"p",
+        "elementid":"functional-item2-subitem1",
+        "text":"<b>C</b>uando un usuario nuevo que no esté registrado ingrese al sistema, este deberá permitirle acceder todas las funciones del sistema pero no deberá permitirle realizar donaciones."
+      },
+      {
+        "type":"p",
+        "elementid":"functional-item2-subitem2",
+        "text":"<b>E</b>n el momento del registro, el sistema debe permitir al usuario registrarse mediante la cuenta de correo de gmail, o facebook para facilitar el proceso de registro."
+      },
+      {
+        "type":"p",
+        "elementid":"functional-item2-subitem3",
+        "text":"<b>E</b>n el momento que desee un usuario debe poder seguir el flujo de un proyecto, como por ejemplo, acceder, ver su descripción, ver los fondos que ha recibido, cuanto se ha gastado, cuánto conserva, las transacciones que ha realizado con los fondos y fotos de las actividades(opcional), con el fin de generar buenas sensaciones en los donantes."
+      },
+      {
+        "type":"p",
+        "elementid":"functional-item2-subitem4",
+        "text":"<b>E</b>l sistema deberá exigir la validación de la organización previo a crear un proyecto, para garantizar que sean las organizaciones quienes creen los proyectos."
+      },
+      {
+        "type":"p",
+        "elementid":"functional-item3-subitem1",
+        "text":"<b>L</b>a duración de un proyecto no debe ser mayor a un año. Dado lo anterior, cuando se cumpla el tiempo, el proyecto dejará de estar en modo implementación y pasará a modo histórico."
+      },
+      {
+        "type":"p",
+        "elementid":"functional-item3-subitem2",
+        "text":"<b>E</b>n cualquier situación los usuarios deberán tener la opción de compartir los proyectos en sus redes sociales para cautivar la atención de más donantes.  "
+      },
+      {
+        "type":"p",
+        "elementid":"functional-item3-subitem3",
+        "text":"<b>A</b>l momento de crear un proyecto nuevo, la entidad debe establecer una meta económica, la cual puede ser superada, pero sirve de referencia para ver el crecimiento de las donaciones."
+      },
+      {
+        "type":"p",
+        "elementid":"functional-item4-subitem1",
+        "text":"<b>L</b>ectura: el usuario puede únicamente leer o visualizar la información pero no puede alterarla. Debe considerarse que la información puede ser copiada o impresa."
+      },
+      {
+        "type":"p",
+        "elementid":"nonfunctional-item1-subitem1",
+        "text":"<b>E</b>l flujo de la aplicación debe ser intuitivo para el usuario, el despliegue frente a este debe ser eficiente."
+      },
+      {
+        "type":"p",
+        "elementid":"nonfunctional-item1-subitem2",
+        "text":"<b>L</b>os componentes de diseño deberán permitir mostrar la información de manera dinámica, ágil y estética."
+      },
+      {
+        "type":"p",
+        "elementid":"nonfunctional-item1-subitem3",
+        "text":"<b>E</b>l navegador no debe requerir la instalación de plugins o applets para que el software funcione, ni requerir soporte al usuario para poder operar la aplicación."
+      },
+      {
+        "type":"a",
+        "elementid":"nav-item1",
+        "text":"Safely Donations"
+      },
+      {
+        "type":"a",
+        "elementid":"nav-item2",
+        "text":"Que hace?"
+      },
+      {
+        "type":"a",
+        "elementid":"nav-item3",
+        "text":"Como lo hace?"
+      },
+      {
+        "type":"a",
+        "elementid":"nav-item4",
+        "text":"Como se hace?"
+      },
+      {
+        "type":"a",
+        "elementid":"nav-item5",
+        "text":"Quienes somos?"
+      },
+      {
+        "type":"a",
+        "elementid":"title",
+        "text":"documentación"
+      },
+      {
+        "type":"span",
+        "elementid":"functional-date",
+        "text":"Mayo 13"
+      },
+      {
+        "type":"div",
+        "elementid":"carouselname1",
+        "text":"Teban"
+      },
+      {
+        "type":"div",
+        "elementid":"carouselname2",
+        "text":"Marce"
+      }
+    ]
+}

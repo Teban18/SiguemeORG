@@ -2,13 +2,9 @@
 
  function validation(person)
  {    
- document.getElementById(person.teban.name).onclick=function()
+ document.getElementById(person.name).onclick=function()
  {
-   setContactLink(person.teban.name);
- }
-
- document.getElementById(person.marce.name).onclick=function()
- {
-   setContactLink(person.marce.name);
+  document.getElementById("inicon").href = person.linkedin;
+  document.getElementById("ghicon").href = person.github;
  }
  }

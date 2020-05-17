@@ -1,5 +1,5 @@
 
 function writeData(data)
 {
-        document.getElementById(data.element).innerHTML=data.text;  
+        document.getElementById(data.elementid).innerHTML=data.text;       
 }
