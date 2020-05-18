@@ -214,27 +214,32 @@
       {
         "type":"a",
         "elementid":"nav-item1",
-        "text":"Safely Donations"
+        "text":"Principal"
       },
       {
         "type":"a",
         "elementid":"nav-item2",
-        "text":"Que hace?"
+        "text":"Funcional"
       },
       {
         "type":"a",
         "elementid":"nav-item3",
-        "text":"Como lo hace?"
+        "text":"No-Funcional"
       },
       {
         "type":"a",
         "elementid":"nav-item4",
-        "text":"Como se hace?"
+        "text":"Diagramas"
       },
       {
         "type":"a",
         "elementid":"nav-item5",
-        "text":"Quienes somos?"
+        "text":"Formatos"
+      },
+      {
+        "type":"a",
+        "elementid":"nav-item6",
+        "text":"Herramientas"
       },
       {
         "type":"a",
@@ -252,14 +257,29 @@
         "text":"Mayo 16"
       },
       {
-        "type":"div",
-        "elementid":"carouselname1",
+        "type":"h4",
+        "elementid":"person-carousel-name1",
         "text":"Teban"
       },
       {
-        "type":"div",
-        "elementid":"carouselname2",
+        "type":"h4",
+        "elementid":"person-carousel-name2",
         "text":"Marce"
+      },
+      {
+        "type":"h2",
+        "elementid":"givi-title",
+        "text":"Formatos Givi"
+      },
+      {
+        "type":"h2",
+        "elementid":"givi001-subtitle",
+        "text":"Givi 001 · Proyecto I"
+      },
+      {
+        "type":"h2",
+        "elementid":"givi010-subtitle",
+        "text":"Givi 010 · Proyecto II"
       }
     ]
 }

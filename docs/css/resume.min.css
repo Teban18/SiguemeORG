@@ -20,18 +20,6 @@ body
         padding-left:17rem
     }
 } 
-section.awSlider{
-    margin: auto;
-    padding:0;
-    position:relative;
-    display:table;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-} 
 h1,
 h2,
 h3,
@@ -55,9 +43,25 @@ h2
 {
     font-size:auto
 }
+.givi001
+{
+    color: tomato;
+    text-align: justify;
+    line-height: 10rem;
+}
+.givi010
+{
+    color: royalblue;
+    text-align: justify;
+    line-height: 10rem;
+}
 h3
 {
     font-size:2.3rem;
+}
+h4
+{
+    font-size: 1.4rem;
 }
 .userinterface
 {
@@ -183,7 +187,7 @@ p.leadlevel2
         /*
         Este atributo define la imagen en escala de grises
         */
-        filter: grayscale(80%);
+        filter: grayscale(100%);
         /*
         Estos atributos definen los tiempos de la transición
         Se definen para varios navegadores como mozilla, opera, Chrome.
