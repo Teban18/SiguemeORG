@@ -25,9 +25,9 @@
 <body id="page-top">
   <!-- nav located at left of page -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="">
+    <a id="person-slider" class="navbar-brand js-scroll-trigger">
         <!-- Slider Section -->
-        <section class="awSlider">
+        <section id="person-slider" class="awSlider">
           <div  class="carousel slide" data-ride="carousel" data-interval="false" id="personcarousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
@@ -83,7 +83,7 @@
   </nav>
   <!-- Container of sections -->
   <div id="containersections" class="container-fluid p-0">
-    <!-- Main section -->
+    <!-- Principal section -->
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="principal">
       <div class="w-100">
         <h1 id="title" class="mb-0"></h1>
@@ -92,8 +92,6 @@
         <div class="social-icons">
           <a id="inicon" href=""><i class="fab fa-linkedin-in"></i></a>
           <a id="ghicon" href=""><i class="fab fa-github"></i></a>
-          <a id="twicon" href="#principal"><i class="fab fa-twitter"></i></a>
-          <a id="fbicon" href="#principal"><i class="fab fa-facebook-f"></i></a>
         </div>
     </section>
     <!-- line -->
@@ -109,62 +107,54 @@
                 <div id="functional-item1" class="subheadinglevel2 mb-3"></div>
               </li>
               <ol>
-                <p> 
-                  <li>
-                    <p id="functional-item1-subitem1" class="leadlevel2 mb-5"></p>
-                  </li>
-                  <li>
-                    <p id="functional-item1-subitem2" class="leadlevel2 mb-5"></p>
-                  </li>
-                  <hr class="m-0">
-                </p>
+                <li>
+                  <p id="functional-item1-subitem1" class="leadlevel2 mb-5"></p>
+                </li>
+                <li>
+                  <p id="functional-item1-subitem2" class="leadlevel2 mb-5"></p>
+                </li>
+                <hr class="m-0">
               </ol>
               <li>
                 <div id="functional-item2" class="subheadinglevel2 mb-3"></div>
               </li>
               <ol>
-                <p>
-                  <li>
-                    <p id="functional-item2-subitem1" class="leadlevel2 mb-5"></p>
-                  </li>
-                  <li>
-                    <p id="functional-item2-subitem2" class="leadlevel2 mb-5"></p>
-                  </li>
-                  <li>
-                    <p id="functional-item2-subitem3" class="leadlevel2 mb-5"></p>
-                  </li>
-                  <li>
-                    <p id="functional-item2-subitem4" class="leadlevel2 mb-5"></p>
-                  </li>
-                    <hr class="m-0">
-                </p>
+                <li>
+                  <p id="functional-item2-subitem1" class="leadlevel2 mb-5"></p>
+                </li>
+                <li>
+                  <p id="functional-item2-subitem2" class="leadlevel2 mb-5"></p>
+                </li>
+                <li>
+                  <p id="functional-item2-subitem3" class="leadlevel2 mb-5"></p>
+                </li>
+                <li>
+                  <p id="functional-item2-subitem4" class="leadlevel2 mb-5"></p>
+                </li>
+                <hr class="m-0">
               </ol>
               <li>
                 <div id="functional-item3" class="subheadinglevel2 mb-3"></div>
               </li>
-              <ol>
-                <p>      
-                  <li>
-                    <p id="functional-item3-subitem1" class="leadlevel2 mb-5"></p>
-                  </li>
-                  <li>
-                    <p id="functional-item3-subitem2" class="leadlevel2 mb-5"></p>
-                  </li>
-                  <li>
-                    <p id="functional-item3-subitem3" class="leadlevel2 mb-5"></p>
-                  </li>
-                  <hr class="m-0">
-                </p>
+              <ol>   
+                <li>
+                  <p id="functional-item3-subitem1" class="leadlevel2 mb-5"></p>
+                </li>
+                <li>
+                  <p id="functional-item3-subitem2" class="leadlevel2 mb-5"></p>
+                </li>
+                <li>
+                  <p id="functional-item3-subitem3" class="leadlevel2 mb-5"></p>
+                </li>
+                <hr class="m-0">
               </ol>
               <li>
                 <div id="functional-item4" class="subheadinglevel2 mb-3"></div>
               </li>
               <ol>
-                <p>
-                  <li>
-                    <p id="functional-item4-subitem1" class="leadlevel2 mb-5"></p>
-                  </li>
-                </p>
+                <li>
+                  <p id="functional-item4-subitem1" class="leadlevel2 mb-5"></p>
+                </li>
               </ol>
             </ul>  
             <div class="resume-date text-md-right">
@@ -254,73 +244,38 @@
       </div>
     </section>
     <!-- Line -->
+    <hr class="m-0">  
+    <!-- About section -->
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="aboutus">
+    </section>
+    <!-- Line -->
     <hr class="m-0">
     <!-- Tools section -->
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="tools">
       <div class="w-100">
         <h2 id="tools-title" class="mb-5"></h2>
 
-        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+        <div id="tools-subtitle" class="subheading mb-3"></div>
         <ul class="list-inline dev-icons">
           <li class="list-inline-item">
-            <i class="fab fa-html5"></i>
+            <a id="html5" class="fab fa-html5"></a>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-css3-alt"></i>
+            <a id="css3" class="fab fa-css3-alt"></a>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-js-square"></i>
+            <a id="javascript" class="fab fa-js-square"></a>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-angular"></i>
+            <a id="angular" class="fab fa-angular"></a>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-react"></i>
+            <a id="ethereum" class="fab fa-ethereum"></a>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-node-js"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-ethereum"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-github"></i>
+            <a id="github" class="fab fa-github"></a>
           </li>
         </ul>
-
-        <div class="subheading mb-3"></div>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-star"></i>
-            Html5
-          </li>
-          <li>
-            <i class="fa-li fa fa-star"></i>
-            CSS3
-          </li>
-          <li>
-            <i class="fa-li fa fa-star"></i>
-            JavaScript
-          </li>
-          <li>
-            <i class="fa-li fa fa-star"></i>
-            AngularJs
-          </li>
-          <li>
-            <i class="fa-li fa fa-star"></i>
-            Ethereum technologies
-          </li>
-          <li>
-            <i class="fa-li fa fa-star"></i>
-            Github, Github docs
-          </li>
-        </ul>
-      </div>
-    </section>
-    <!-- Line -->
-    <hr class="m-0">
-    <!-- About section -->
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="aboutus">
     </section>
   </div>
   <!-- Bootstrap core JavaScript -->
@@ -333,5 +288,6 @@
   <script src="js/loadresources.js"></script>
   <script src="js/loadelements.js"></script>
   <script src="js/loadimages.js"></script>
+  <script src="js/loaddefaultvalues.js"></script>
 </body>
 </html>
