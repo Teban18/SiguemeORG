@@ -17,6 +17,11 @@
         "text":"Requerimientos no funcionales"
       },
       {
+        "type":"h2",
+        "elementid":"tools-title",
+        "text":"Herramientas"
+      },
+      {
         "type":"h3",
         "elementid":"nonfunctional-subtitle1",
         "text":"Interfaces de usuario"
@@ -142,6 +147,66 @@
         "text":"<b>E</b>l navegador no debe requerir la instalación de plugins o applets para que el software funcione, ni requerir soporte al usuario para poder operar la aplicación."
       },
       {
+        "type":"p",
+        "elementid":"nonfunctional-item3-subitem1",
+        "text":"<b>L</b>os tiempos de respuesta relacionados con formularios de procesamiento de información no deben superar los 4 segundos."
+      },
+      {
+        "type":"p",
+        "elementid":"nonfunctional-item3-subitem2",
+        "text":"<b>E</b>l 90% de los procesos relacionados con respuestas de transacciones no deberá exceder tiempos de respuesta de 4 segundos.                "
+      },
+      {
+        "type":"p",
+        "elementid":"nonfunctional-item3-subitem3",
+        "text":"<b>L</b>os tiempos de confirmación de transacciones estarán ligados directamente a la manera de donar, aquí se deja muestra de este ítem:"
+      },
+      {
+        "type":"p",
+        "elementid":"nonfunctional-item3-subitem3-subitem1",
+        "text":"<b>S</b>i se utiliza bitcoin podrá tardar lo que demore el consenso de los participantes en la red."
+      },
+      {
+        "type":"p",
+        "elementid":"nonfunctional-item3-subitem3-subitem2",
+        "text":"<b>S</b>i se utiliza uphold para realizar donaciones los tiempos de confirmación son los siguientes :"
+      },
+      {
+        "type":"p",
+        "elementid":"nonfunctional-item3-subitem3-subitem2-subitem1",
+        "text":"<b>E</b>transferencia bancaria de 5-7 días "
+      },
+      {
+        "type":"p",
+        "elementid":"nonfunctional-item3-subitem3-subitem2-subitem2",
+        "text":"<b>E</b>Tarjeta de débito hasta 24 horas "
+      },
+      {
+        "type":"p",
+        "elementid":"nonfunctional-item3-subitem3-subitem2-subitem3",
+        "text":"<b>E</b>Tarjeta de crédito  hasta 24 horas"
+      },
+      {
+        "type":"p",
+        "elementid":"nonfunctional-item3-subitem3-subitem2-subitem4",
+        "text":"<b>E</b>criptomonedas aproximadamente 20-30 min."
+      },
+      {
+        "type":"p",
+        "elementid":"nonfunctional-item4-subitem1",
+        "text":" <b>P</b>ara realizar transacciones con moneda bitcoin cada usuario es responsable de tener la clave privada de su monedero y la clave pública del proyecto y deberá realizar copia de seguridad a estas (Responsabilidad de usuario). "
+      },
+      {
+        "type":"p",
+        "elementid":"nonfunctional-item5-subitem1",
+        "text":"<b>S</b>e debe garantizar que la aplicación sea multiplataforma (Android,IOS)."
+      },
+      {
+        "type":"p",
+        "elementid":"nonfunctional-item6-subitem1",
+        "text":"<b>Documentación:</b> se debe especificar la definición y el manejo de la documentación técnica (manuales técnicos ) y funcional (manuales de configuración y de usuario final) del sistema de información, establecer procedimientos claros de actualización y aprobación."
+      },
+      {
         "type":"a",
         "elementid":"nav-item1",
         "text":"Safely Donations"
@@ -175,6 +240,11 @@
         "type":"span",
         "elementid":"functional-date",
         "text":"Mayo 13"
+      },
+      {
+        "type":"span",
+        "elementid":"nonfunctional-date",
+        "text":"Mayo 16"
       },
       {
         "type":"div",

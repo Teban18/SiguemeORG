@@ -89,6 +89,11 @@ h3
     text-align: justify;
     line-height: 4rem;
 }
+.maintainability{
+    color:palegreen;
+    text-align: justify;
+    line-height: 4rem;
+}
 p.lead
 {
     font-size:auto;
