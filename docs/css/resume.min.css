@@ -235,6 +235,10 @@ p.leadlevel2
         -webkit-transform : scale(1.09);
         -o-transform : scale(1.0) 
     }
+    #myCarousel
+    {
+        width: 100%;
+    }
 }
 section.resume-section
 {
