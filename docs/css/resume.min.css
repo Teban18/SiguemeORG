@@ -155,13 +155,9 @@ p.leadlevel2
 }
 #sideNav .navbar-nav .nav-item .nav-link
 {
-    font-weight:800;
-    letter-spacing:.05rem;
+    font-weight:300;
+    letter-spacing:.0.5rem;
     text-transform:uppercase
-}
-#sideNav .navbar-toggler:focus
-{
-    outline-color:#000000
 }
 @media (min-width:992px)
 {
@@ -176,13 +172,7 @@ p.leadlevel2
         width:17rem;
         height:100vh
     }
-    #sideNav .navbar-brand
-    {
-        display:flex;
-        margin:auto auto 0;
-        padding:.5rem
-    }
-    #sideNav .navbar-brand .img-fluid
+    #sideNav .navbar-collapse .img-fluid
     { 
         /*
         Este atributo define la imagen en escala de grises
@@ -195,9 +185,9 @@ p.leadlevel2
         transition: width 2s, height 2s, transform 2s;
         -moz-transition: width 2s, height 2s, transform 2s;
         -webkit-transition: width 2s, height 2s, transform 2s;
-        -o-transition: width 2s, height 2s, transform 2s
+        -o-transition: width 2s, height 2s, transform 2s,
     }
-    #sideNav .navbar-brand .img-fluid:hover
+    #sideNav .navbar-collapse .img-fluid:hover
     { 
         /*
         Con la acción hover el color de la imagen se satura

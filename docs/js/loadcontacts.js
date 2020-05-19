@@ -17,3 +17,4 @@
   document.getElementById("person-slider").onclick = function (){
 
  }
+
