@@ -1,0 +1,30 @@
+{
+    "pages":
+    [
+        {
+            "trigger":"firsttrigger",
+            "container":"allcontainer",
+            "linkref":"./home.html"
+        },
+        {
+            "trigger":"secondtrigger",
+            "container":"allcontainer",
+            "linkref":"./functional.html"
+        },
+        {
+            "trigger":"thirdtrigger",
+            "container":"allcontainer",
+            "linkref":"./nonfunctional.html"
+        },
+        {
+            "trigger":"tenthtrigger",
+            "container":"allcontainer",
+            "linkref":"./diagrams.html"
+        },
+        {
+            "trigger":"eleventhtrigger",
+            "container":"allcontainer",
+            "linkref":"./givi.html"
+        }
+    ]
+}

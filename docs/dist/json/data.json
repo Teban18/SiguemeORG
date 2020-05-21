@@ -1,0 +1,198 @@
+{
+    "text":
+    [
+        {
+            "elementid":"pagetitle",
+            "text":"SiguemeORG"
+        },
+        {
+            "elementid":"functional-title",
+            "text":"Requisitos funcionales del sistema"
+        },
+        {
+            "elementid":"nonfunctional-title",
+            "text":"Requisitos no funcionales del sistema"
+        },
+        {
+            "type":"h3",
+            "elementid":"nonfunctional-subtitle1",
+            "text":"Interfaces de usuario"
+        },
+        {
+            "type":"h3",
+            "elementid":"nonfunctional-subtitle2",
+            "text":"Interfaces de comunicación"
+        },
+        {
+            "type":"h3",
+            "elementid":"nonfunctional-subtitle3",
+            "text":"Requisitos de desempeño"
+        },
+        {
+            "type":"h3",
+            "elementid":"nonfunctional-subtitle4",
+            "text":"Seguridad"
+        },
+        {
+            "type":"h3",
+            "elementid":"nonfunctional-subtitle5",
+            "text":"Portabilidad"
+        },
+        {
+            "type":"h3",
+            "elementid":"nonfunctional-subtitle6",
+            "text":"Mantenibilidad"
+        },
+        {
+            "type":"span",
+            "elementid":"functional-date",
+            "text":"Mayo 13"
+        },
+        {
+            "type":"div",
+            "elementid":"functional-item1",
+            "text":"El sistema deberá permitir donaciones mediante criptomonedas digitales y otras monedas tradicionales, generando al donante más posibilidades referentes a la transacción."
+        },
+        {
+            "type":"div",
+            "elementid":"functional-item2",
+            "text":"El sistema debe  permitir la gestión de donantes y organizaciones con el fin de garantizar los roles adecuados."
+        },
+        {
+            "type":"div",
+            "elementid":"functional-item3",
+            "text":"El sistema deberá permitir la gestión de causas que actuarán como representación digital de las obras sociales."
+        },
+        {
+            "type":"div",
+            "elementid":"functional-item4",
+            "text":"El sistema debe permitir la visualización del histórico de operaciones al interior de las causas (proyectos), con el fin de generar empatía con el donante."
+        },
+        {
+            "type":"p",
+            "elementid":"functional-item1-subitem1",
+            "text":"Si un usuario requiere hacer una donación, entonces el sistema deberá obligarle a registrarse para poder realizar la transacción."
+        },
+        {
+            "type":"p",
+            "elementid":"functional-item1-subitem2",
+            "text":"Ejecución: este acceso otorga al usuario el privilegio de ejecutar transacciones, opciones o módulos."
+        },
+        {
+            "type":"p",
+            "elementid":"functional-item2-subitem1",
+            "text":"Cuando un usuario nuevo que no esté registrado ingrese al sistema, este deberá permitirle acceder todas las funciones del sistema pero no deberá permitirle realizar donaciones."
+        },
+        {
+            "type":"p",
+            "elementid":"functional-item2-subitem2",
+            "text":"En el momento del registro, el sistema debe permitir al usuario registrarse mediante la cuenta de correo de gmail, o facebook para facilitar el proceso de registro."
+        },
+        {
+            "type":"p",
+            "elementid":"functional-item2-subitem3",
+            "text":"En el momento que desee un usuario debe poder seguir el flujo de un proyecto, como por ejemplo, acceder, ver su descripción, ver los fondos que ha recibido, cuanto se ha gastado, cuánto conserva, las transacciones que ha realizado con los fondos y fotos de las actividades(opcional), con el fin de generar buenas sensaciones en los donantes."
+        },
+        {
+            "type":"p",
+            "elementid":"functional-item2-subitem4",
+            "text":"El sistema deberá exigir la validación de la organización previo a crear un proyecto, para garantizar que sean las organizaciones quienes creen los proyectos."
+        },
+        {
+            "type":"p",
+            "elementid":"functional-item3-subitem1",
+            "text":"La duración de un proyecto no debe ser mayor a un año. Dado lo anterior, cuando se cumpla el tiempo, el proyecto dejará de estar en modo implementación y pasará a modo histórico."
+        },
+        {
+            "type":"p",
+            "elementid":"functional-item3-subitem2",
+            "text":"En cualquier situación los usuarios deberán tener la opción de compartir los proyectos en sus redes sociales para cautivar la atención de más donantes.  "
+        },
+        {
+            "type":"p",
+            "elementid":"functional-item3-subitem3",
+            "text":"Al momento de crear un proyecto nuevo, la entidad debe establecer una meta económica, la cual puede ser superada, pero sirve de referencia para ver el crecimiento de las donaciones."
+        },
+        {
+            "type":"p",
+            "elementid":"functional-item4-subitem1",
+            "text":"Lectura: el usuario puede únicamente leer o visualizar la información pero no puede alterarla. Debe considerarse que la información puede ser copiada o impresa."
+        },
+        {
+            "type":"p",
+            "elementid":"nonfunctional-item1-subitem1",
+            "text":"El flujo de la aplicación debe ser intuitivo para el usuario, el despliegue frente a este debe ser eficiente."
+          },
+          {
+            "type":"p",
+            "elementid":"nonfunctional-item1-subitem2",
+            "text":"Los componentes de diseño deberán permitir mostrar la información de manera dinámica, ágil y estética."
+          },
+          {
+            "type":"p",
+            "elementid":"nonfunctional-item1-subitem3",
+            "text":"El navegador no debe requerir la instalación de plugins o applets para que el software funcione, ni requerir soporte al usuario para poder operar la aplicación."
+          },
+          {
+            "type":"p",
+            "elementid":"nonfunctional-item3-subitem1",
+            "text":"Los tiempos de respuesta relacionados con formularios de procesamiento de información no deben superar los 4 segundos."
+          },
+          {
+            "type":"p",
+            "elementid":"nonfunctional-item3-subitem2",
+            "text":"El 90% de los procesos relacionados con respuestas de transacciones no deberá exceder tiempos de respuesta de 4 segundos.                "
+          },
+          {
+            "type":"p",
+            "elementid":"nonfunctional-item3-subitem3",
+            "text":"Los tiempos de confirmación de transacciones estarán ligados directamente a la manera de donar, aquí se deja muestra de este ítem:"
+          },
+          {
+            "type":"p",
+            "elementid":"nonfunctional-item3-subitem3-subitem1",
+            "text":"Sí se utiliza bitcoin podrá tardar lo que demore el consenso de los participantes en la red."
+          },
+          {
+            "type":"p",
+            "elementid":"nonfunctional-item3-subitem3-subitem2",
+            "text":"Sí se utiliza uphold para realizar donaciones los tiempos de confirmación son los siguientes :"
+          },
+          {
+            "type":"p",
+            "elementid":"nonfunctional-item3-subitem3-subitem2-subitem1",
+            "text":"Transferencia bancaria de 5-7 días "
+          },
+          {
+            "type":"p",
+            "elementid":"nonfunctional-item3-subitem3-subitem2-subitem2",
+            "text":"Tarjeta de débito hasta 24 horas "
+          },
+          {
+            "type":"p",
+            "elementid":"nonfunctional-item3-subitem3-subitem2-subitem3",
+            "text":"Tarjeta de crédito  hasta 24 horas"
+          },
+          {
+            "type":"p",
+            "elementid":"nonfunctional-item3-subitem3-subitem2-subitem4",
+            "text":"Criptomonedas aproximadamente 20-30 min."
+          },
+          {
+            "type":"p",
+            "elementid":"nonfunctional-item4-subitem1",
+            "text":" Para realizar transacciones con moneda bitcoin cada usuario es responsable de tener la clave privada de su monedero y la clave pública del proyecto y deberá realizar copia de seguridad a estas (Responsabilidad de usuario). "
+          },
+          {
+            "type":"p",
+            "elementid":"nonfunctional-item5-subitem1",
+            "text":"Se debe garantizar que la aplicación sea multiplataforma (Android,IOS)."
+          },
+          {
+            "type":"p",
+            "elementid":"nonfunctional-item6-subitem1",
+            "text":"Documentación: se debe especificar la definición y el manejo de la documentación técnica (manuales técnicos ) y funcional (manuales de configuración y de usuario final) del sistema de información, establecer procedimientos claros de actualización y aprobación."
+          }
+
+    ]
+}
