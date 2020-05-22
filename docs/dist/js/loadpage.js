@@ -5,7 +5,7 @@
  * @function preventDefault evita que la página se recargue, lo cual convierte la carga en asíncrona
  */
 function loadPages(data){
-    $("#"+data.trigger).click(function(event){
+    $("#"+data.trigger).on("mouseover",function(event){
         event.preventDefault();
         try{
         $("#"+data.container).load(data.linkref)
