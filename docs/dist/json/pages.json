@@ -19,12 +19,17 @@
         {
             "trigger":"tenthtrigger",
             "container":"allcontainer",
-            "linkref":"./diagrams.html"
+            "linkref":"./usecase.html"
         },
         {
             "trigger":"eleventhtrigger",
             "container":"allcontainer",
-            "linkref":"./givi.html"
+            "linkref":"./givi001.html"
+        },
+        {
+            "trigger":"twelvethtrigger",
+            "container":"allcontainer",
+            "linkref":"./givi010.html"
         }
     ]
 }

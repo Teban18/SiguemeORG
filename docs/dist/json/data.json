@@ -184,7 +184,7 @@
           },
           {
             "elementid":"firsttrigger",
-            "text":"SiguemeORG"
+            "text":"Ante-proyecto"
           },
           {
             "elementid":"secondtrigger",
@@ -201,6 +201,18 @@
           {
             "elementid":"eleventhtrigger",
             "text":"Givi001"
+          },
+          {
+            "elementid":"twelvethtrigger",
+            "text":"Givi010"
+          },
+          {
+            "elementid":"usecase-title",
+            "text":"Casos de uso"
+          },
+          {
+            "elementid":"siguemeorg-title",
+            "text":"SiguemeORG"
           }
     ]
 }
