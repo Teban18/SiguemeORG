@@ -213,6 +213,43 @@
           {
             "elementid":"siguemeorg-title",
             "text":"SiguemeORG"
+          },
+          {
+            "elementid":"justification",
+            "text":"Pensamos que blockchain, con sus pilares de transparencia, inmutabilidad y distribución, puede ofrecer mayor confianza a los donantes que destinan fondos a los proyectos solidarios. Según la ONG Unicef persiste la mutilación genital femenina y existen alrededor de 121 millones de niños, niñas y jóvenes que no han asistido a la escuela y requieren auxilio. Debido a esto y al evidenciar que, en la ciudad de Bogotá no existe actualmente un sistema con las ventajas que proponemos para estas organizaciones la motivación crece. Además, el enfoque de aportar a una causa social anima a llevar a cabo la investigación y es por eso que es pertinente una solución blockchain que ofrezca la posibilidad de motivar a los donantes. de la misma manera en Colombia es difícil encontrar información clara sobre las donaciones, lo que conlleva a pensar en dos situaciones. La cantidad de donantes es reducida para tomar datos estadísticos, o, por otro lado, no hay trazabilidad de las transacciones. Por último, entendiendo que nuestro estudio tiene como meta realizar veeduría de transacciones, esta puede ser la prueba piloto para investigaciones futuras."
+          },
+          {
+            "elementid":"objective-subtitle",
+            "text":"Objetivo general"
+          },
+          {
+            "elementid":"specificobjective-subtitle",
+            "text":"Objetivos especificos"
+          },
+          {
+            "elementid":"objective-subitem",
+            "text":"Implementar una aplicación utilizando la tecnología blockchain que permita evidenciar la trazabilidad de las donaciones consignadas a entidades del tercer sector en la ciudad de Bogotá con el fin de ejercer veeduría sobre las mismas. "
+          },
+          {
+            "elementid":"specificobjective-subitem1",
+            "text":"Determinar los requerimientos necesarios para el funcionamiento del sistema, como los tipos de donaciones, o la recurrencia de los donantes, entre otros."
+          },
+          {
+            "elementid":"specificobjective-subitem2",
+            "text":"Diseñar la estructura de la aplicación teniendo en cuenta los aspectos técnicos y funcionales requeridos, para ello, la utilización de estilos arquitectónicos, metodologías de desarrollo y patrones de diseño que nos permitan medir la calidad de la aplicación en términos de las métricas del software."
+          },
+          {
+            "elementid":"specificobjective-subitem3",
+            "text":"Implementar el diseño planteado, valiéndose de buenas prácticas de desarrollo y de esta manera emplear las bases prácticas de nuestro proceso de aprendizaje."
+          },
+          {
+            "elementid":"specificobjective-subitem4",
+            "text":"Validar la funcionalidad de la aplicación como solución del problema planteado en al menos dos escenarios de prueba."
+          },
+          {
+            "elementid":"state-of-art",
+            "text":"El objetivo de realizar una donación a una entidad no gubernamental (ONG), es financiar la realización de actividades sociales de valor. Por esta razón, como lo proponen algunos investigadores de la Federación Antioqueña de ONG (Aguilar Rodríguez, Ramírez García and Rocha Valencia, 2019) “el compromiso que se debe acoger por parte de estos grupos de interés debe iniciar con una política de responsabilidad social, dentro de la cual destaca el principio de transparencia” (p. 28), principio que resalta la capacidad de un sujeto para acceder a toda la información relacionada con los datos y decisiones que lo afectan (Bertino, Kundu and Sura, 2019). De esta manera se pretende impulsar a futuro la imagen corporativa de estas organizaciones, resaltando el interés de nuevos voluntarios (Aguilar Rodríguez, Ramírez García and Rocha Valencia, 2019). Agregando a lo mencionado anteriormente, (Bertino, Kundu and Sura, 2019) señala que “ la transparencia de los datos es crítica en esta era de grandes datos y el uso masivo de técnicas de aprendizaje profundo. El uso incorrecto de datos y algoritmos puede conducir a la discriminación, decisiones equivocadas y otros efectos adversos” (p. 8). En efecto, lo anterior conlleva a pensar en la tecnología Blockchain, dado que, esta podría facilitar el seguimiento de los datos y cómo evolucionan en el tiempo (Bertino, Kundu and Sura, 2019). Un ejemplo de aplicación comercial que se ha estado desarrollando actualmente, como lo menciona (Crosby et al., 2016) son dos startups que progresan con Blockchain, Factom y Everledger. El objetivo de Factom es proteger los datos. La compañía participa en el proyecto de registro controlado de tierras hondureño, también en china ofreciendo soluciones de tecnología financiera y servicios de notarización electrónica de datos para mejorar la integridad, (Crosby et al., 2016) . Por otra parte, Leanne Kemp, fundadora y CEO de Everledger también citada por (Crosby et al., 2016) agrega que el objetivo final de esta compañía es rastrear los diamantes desde la mina hasta el mercado, para que los consumidores puedan ver si se han pagado los derechos e impuestos correctos y si un diamante es un ‘diamante de sangre’ que se ha extraído y comercializado en una zona de guerra y ha contribuido con la atrocidad humana (p. 16), sin olvidar que la tecnología Blockchain es originalmente el nombre dado al diseño que sustenta el funcionamiento de la moneda digital Bitcoin, la cual ha registrado con precisión más de 140 millones de transacciones en casi ocho años (Ammous, 2016). Dichas aplicaciones, aunque no se relacionan directamente con el contexto de las donaciones, si representan los lineamientos y los casos de éxito que sirven como punto de referencia para construir sistemas de veeduría. En conjunción (Maldonado, 2018) menciona que se puede ver cómo la tecnología Blockchain es una opción para solucionar los principales problemas a los que se enfrentan los proyectos solidarios, ONG’s, Fundaciones, o entidades sin ánimo de lucro (p. 50). En contraste (Fuertes Paniagua, 2018) concluye que Blockchain puede tener un impacto mayor en una multinacional que en una organización local. Por aspectos tales como la problemática de hacer llegar el dinero a personas que no disponen de una cuenta bancaria, o la versatilidad de proyectos en los que éstas están involucradas. (p. 65). Agrega seguidamente (Fuertes Paniagua, 2018) lo siguiente. En este sentido, Blockchain, con su base de datos pública y cuyas transacciones se actualizan de manera casi inmediata, permite al donante realizar un seguimiento completo de sus donaciones, al mismo tiempo que otorga mayor transparencia a las entidades que lo implementan. (p. 66) Por último (Fuertes Paniagua, 2018) agrega, “Esta tecnología no solo puede conseguir aumentar la confianza del donante en el tercer sector, sino también incrementar su implicación en las causas benéficas a las que aporta dinero”. Fortaleciendo lo anterior (Maldonado, 2018) aclara que, “el donante no solo sabrá que sus fondos están llegando a buen puerto, si no que también sabrá a dónde concretamente. Además podría crear una fidelidad de donación con la ONG” (p. 49). Algunos ejemplos que sustentan lo dicho son los siguientes:"
+            
           }
     ]
 }

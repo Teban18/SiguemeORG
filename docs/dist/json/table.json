@@ -1,0 +1,50 @@
+{
+    "table":
+    [
+        {
+            "name":"ComGo",
+            "description":"Plataforma desarrollada con servicios IBM Blockchain para proyectos solidarios",
+            "advantage":"Facilidad de uso y despliegue",
+            "disadvantage":"Costo",
+            "year":"2018",
+            "visit":"<a href='https://comgo.io/es/#action'>visit</a>",
+            "location":"España"
+        },
+        {
+            "name":"Cherr.io",
+            "description":"Ecosistema transparente blockchain para la recaudación de fondos ",
+            "advantage":"Icentivos a la participación de la comunidad",
+            "disadvantage":"Se encuentra en modo Beta, no hay tantas campañas para realizar donaciones y faltan actualizaciones.",
+            "year":"2017",
+            "visit":"<a href='https://platform.cherr.io/sl/'>visit</a>",
+            "location":"Eslovenia"
+        },
+        {
+            "name":"BitHope",
+            "description":"Fundación (ong) en beneficio público que utiliza servicios de blockchain blockcypher.",
+            "advantage":"Oportunidad para las OSFL (organizaciones sin fines de lucro) de recibir donaciones globales.",
+            "disadvantage":"Sólo acepta donaciones en criptomonedas",
+            "year":"2015",
+            "visit":"<a href='https://bithope.org/'>visit</a>",
+            "location":"Bulgaria"
+        },
+        {
+            "name":"CleanWater",
+            "description":"Organización sin fines de lucro con su propia criptomoneda moneda Clean Water Coin para el suministro de agua limpia en todo el mundo.Organización sin fines de lucro con su propia criptomoneda moneda Clean Water Coin para el suministro de agua limpia en todo el mundo.",
+            "advantage":"Donación del 100% de los recursos a organizaciones benéficas.",
+            "disadvantage":"Sólo es usado para causas relacionadas con el suministro de agua.",
+            "year":"2014",
+            "visit":"<a href='https://www.cleanwatercoin.org/'>visit</a>",
+            "location":"África especialmente"
+        },
+        {
+            "name":"Givetrack",
+            "description":"Plataforma de donación Blockchain y bitcoin para organizaciones sin fines de lucro de salud pública y medio ",
+            "advantage":"Transparencia financiera en tiempo real y seguimiento.",
+            "disadvantage":"Volatilidad en el precio del Bitcoin y transacción lentas con otros medios de pago.",
+            "year":"2013",
+            "visit":"<a href='https://www.givetrack.org/'>visit</a>",
+            "location":"Estados Unidos EE.UU."
+        }
+    ]
+}
