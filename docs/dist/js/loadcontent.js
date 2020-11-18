@@ -2,14 +2,6 @@
 $(document).ready(function()
 {
     try{
-        $.getJSON("json/table.json",function(json)
-        {
-            let infotable = json.table;
-            for(i in infotable)
-            {
-                loadTable(infotable[i]);
-            }
-        });
         $.getJSON("json/pages.json", function(json)
         {
             let pages = json.pages;

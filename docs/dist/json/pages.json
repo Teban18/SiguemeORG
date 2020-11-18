@@ -2,33 +2,28 @@
     "pages":
     [
         {
-            "trigger":"firsttrigger",
-            "container":"allcontainer",
-            "linkref":"./home.html"
-        },
-        {
-            "trigger":"secondtrigger",
-            "container":"allcontainer",
+            "trigger":"#secondtrigger",
+            "container":"#allcontainer",
             "linkref":"./functional.html"
         },
         {
-            "trigger":"thirdtrigger",
-            "container":"allcontainer",
+            "trigger":"#thirdtrigger",
+            "container":"#allcontainer",
             "linkref":"./nonfunctional.html"
         },
         {
-            "trigger":"tenthtrigger",
-            "container":"allcontainer",
+            "trigger":"#tenthtrigger",
+            "container":"#allcontainer",
             "linkref":"./usecase.html"
         },
         {
-            "trigger":"eleventhtrigger",
-            "container":"allcontainer",
+            "trigger":"#eleventhtrigger",
+            "container":"#allcontainer",
             "linkref":"./givi001.html"
         },
         {
-            "trigger":"twelvethtrigger",
-            "container":"allcontainer",
+            "trigger":"#twelvethtrigger",
+            "container":"#allcontainer",
             "linkref":"./givi010.html"
         }
     ]

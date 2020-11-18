@@ -5823,6 +5823,7 @@ a.close.disabled {
   display: none;
   float: left;
   width: 100%;
+  height: 500px;
   margin-right: -100%;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
@@ -5830,7 +5831,7 @@ a.close.disabled {
 }
 @media (prefers-reduced-motion: reduce) {
   .carousel-item {
-    transition: none;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
   }
 }
 
