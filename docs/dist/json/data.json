@@ -7,11 +7,11 @@
         },
         {
             "elementid":"functional-title",
-            "text":"Requisitos funcionales del sistema"
+            "text":"System functional requirements"
         },
         {
             "elementid":"nonfunctional-title",
-            "text":"Requisitos no funcionales del sistema"
+            "text":"System non-functional requirements"
         },
         {
             "elementid":"nonfunctional-subtitle1",
@@ -39,63 +39,63 @@
         },
         {
             "elementid":"functional-date",
-            "text":"Mayo 13"
+            "text":"May 13nd"
         },
         {
             "elementid":"functional-item1",
-            "text":"El sistema deberá permitir donaciones mediante criptomonedas digitales y otras monedas tradicionales, generando al donante más posibilidades referentes a la transacción."
+            "text":"The system should allow donations through digital cryptocurrencies and other traditional currencies, generating more possibilities for the donor regarding the transaction."
         },
         {
             "elementid":"functional-item2",
-            "text":"El sistema debe  permitir la gestión de donantes y organizaciones con el fin de garantizar los roles adecuados."
+            "text":"The system must allow the management of users and the agregation of entities in order to guarantee the appropriate roles."
         },
         {
             "elementid":"functional-item3",
-            "text":"El sistema deberá permitir la gestión de causas que actuarán como representación digital de las obras sociales."
+            "text":"The system must allow the management of entities and projects."
         },
         {
             "elementid":"functional-item4",
-            "text":"El sistema debe permitir la visualización del histórico de operaciones al interior de las causas (proyectos), con el fin de generar empatía con el donante."
+            "text":"The system must allow the visualization of purchases and donations."
         },
         {
             "elementid":"functional-item1-subitem1",
-            "text":"Si un usuario requiere hacer una donación, entonces el sistema deberá obligarle a registrarse para poder realizar la transacción."
+            "text":"If an user wants to make a donation, the system should not force him to register in order to carry out the transaction (anonymous donor)."
         },
         {
             "elementid":"functional-item1-subitem2",
-            "text":"Ejecución: este acceso otorga al usuario el privilegio de ejecutar transacciones, opciones o módulos."
+            "text":"Anyone must be able to see project activities and transactions information, the system is public."
         },
         {
             "elementid":"functional-item2-subitem1",
-            "text":"Cuando un usuario nuevo que no esté registrado ingrese al sistema, este deberá permitirle acceder todas las funciones del sistema pero no deberá permitirle realizar donaciones."
+            "text":"When an anonymous user enters the app, it must allow access to all its functions but must not allow --- to manage personal information."
         },
         {
             "elementid":"functional-item2-subitem2",
-            "text":"En el momento del registro, el sistema debe permitir al usuario registrarse mediante la cuenta de correo de gmail, o facebook para facilitar el proceso de registro."
+            "text":"At the time of login, the system must allow the user to enter through the gmail account to facilitate the registration process."
         },
         {
             "elementid":"functional-item2-subitem3",
-            "text":"En el momento que desee un usuario debe poder seguir el flujo de un proyecto, como por ejemplo, acceder, ver su descripción, ver los fondos que ha recibido, cuanto se ha gastado, cuánto conserva, las transacciones que ha realizado con los fondos y fotos de las actividades(opcional), con el fin de generar buenas sensaciones en los donantes."
+            "text":"At any time a user wants, he must be able to follow the flow of a project, such as accessing, seeing its description, seeing the funds it has received, how much has been spent, how much it keeps, the transactions it has made with the funds and photos of the activities (optional), in order to generate good feelings in the donors."
         },
         {
             "elementid":"functional-item2-subitem4",
-            "text":"El sistema deberá exigir la validación de la organización previo a crear un proyecto, para garantizar que sean las organizaciones quienes creen los proyectos."
+            "text":"The system should require validation from the organization prior to creating a project, to ensure that the organizations create the projects."
         },
         {
             "elementid":"functional-item3-subitem1",
-            "text":"La duración de un proyecto no debe ser mayor a un año. Dado lo anterior, cuando se cumpla el tiempo, el proyecto dejará de estar en modo implementación y pasará a modo histórico."
+            "text":"The duration of a project should not be more than one year. Given the above, when the time is up, the project will stop being in implementation mode and will go into historical mode."
         },
         {
             "elementid":"functional-item3-subitem2",
-            "text":"En cualquier situación los usuarios deberán tener la opción de compartir los proyectos en sus redes sociales para cautivar la atención de más donantes.  "
+            "text":"In any situation, users should have the option to share the projects on their social networks to attract the attention of more donors."
         },
         {
             "elementid":"functional-item3-subitem3",
-            "text":"Al momento de crear un proyecto nuevo, la entidad debe establecer una meta económica, la cual puede ser superada, pero sirve de referencia para ver el crecimiento de las donaciones."
+            "text":"When creating a new project, the entity must establish an economic goal, which can be exceeded, but serves as a reference to see the growth of donations."
         },
         {
             "elementid":"functional-item4-subitem1",
-            "text":"Lectura: el usuario puede únicamente leer o visualizar la información pero no puede alterarla. Debe considerarse que la información puede ser copiada o impresa."
+            "text":"The user can only read or view the information but cannot alter it. It should be considered that the information can be copied or printed."
         },
         {
             "elementid":"nonfunctional-item1-subitem1",
@@ -164,7 +164,7 @@
           },
           {
             "elementid":"requirements-nav-title",
-            "text":"Acerca del sistema"
+            "text":"About system"
           },
           {
             "elementid":"complements-nav-title",
