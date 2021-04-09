@@ -19,12 +19,27 @@
         {
             "trigger":"#eleventhtrigger",
             "container":"#allcontainer",
-            "linkref":"./givi001.html"
+            "linkref":"./Esteban.html"
         },
         {
             "trigger":"#twelvethtrigger",
             "container":"#allcontainer",
-            "linkref":"./givi010.html"
+            "linkref":"./Marcela.html"
+        },
+        {
+            "trigger":"#thirteenthtrigger",
+            "container":"#diagramrotate",
+            "linkref":"./images/transaccion.html"
+        },
+        {
+            "trigger":"#fourteenthtrigger",
+            "container":"#diagramrotate",
+            "linkref":"./images/Gestionentidades.html"
+        },
+        {
+            "trigger":"#fifteenthtrigger",
+            "container":"#diagramrotate",
+            "linkref":"./images/trazable.html"
         }
     ]
 }

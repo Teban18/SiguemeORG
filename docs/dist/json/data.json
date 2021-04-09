@@ -3,15 +3,15 @@
     [
         {
             "elementid":"pagetitle",
-            "text":"SiguemeORG"
+            "text":"SCO"
         },
         {
             "elementid":"functional-title",
-            "text":"System functional requirements"
+            "text":"Obligaciones de SCO"
         },
         {
             "elementid":"nonfunctional-title",
-            "text":"System non-functional requirements"
+            "text":"Aspectos técnicos"
         },
         {
             "elementid":"nonfunctional-subtitle1",
@@ -39,63 +39,59 @@
         },
         {
             "elementid":"functional-date",
-            "text":"May 13nd"
+            "text":"Editado el 13 de Mayo de 2020"
         },
         {
             "elementid":"functional-item1",
-            "text":"The system should allow donations through digital cryptocurrencies and other traditional currencies, generating more possibilities for the donor regarding the transaction."
+            "text":"SCO deberá permitirle al usuario realizar transacciones blockchain"
         },
         {
             "elementid":"functional-item2",
-            "text":"The system must allow the management of users and the agregation of entities in order to guarantee the appropriate roles."
+            "text":"SCO no deberá contar con base de datos local dado su funcionamiento descentralizado"
         },
         {
             "elementid":"functional-item3",
-            "text":"The system must allow the management of entities and projects."
+            "text":"SCO le deberá permitir al usuario la inscripción de entidades y proyectos asociados "
         },
         {
             "elementid":"functional-item4",
-            "text":"The system must allow the visualization of purchases and donations."
+            "text":"SCO debe permitir la visualizacion de las transacciones realizadas a cada proyecto"
         },
         {
             "elementid":"functional-item1-subitem1",
-            "text":"If an user wants to make a donation, the system should not force him to register in order to carry out the transaction (anonymous donor)."
+            "text":"1. El usuario no deberá registrarse en la aplicación para poder realizar transacciones"
         },
         {
             "elementid":"functional-item1-subitem2",
-            "text":"Anyone must be able to see project activities and transactions information, the system is public."
+            "text":"2. El usuario deberá utilizar la interfaz Metamask para gestionar los pagos de forma eficiente"
         },
         {
             "elementid":"functional-item2-subitem1",
-            "text":"When an anonymous user enters the app, it must allow access to all its functions but must not allow --- to manage personal information."
+            "text":"1. La información transaccional de SCO deberá quedar almacenada en la red blockchain Ethereum"
         },
         {
             "elementid":"functional-item2-subitem2",
-            "text":"At the time of login, the system must allow the user to enter through the gmail account to facilitate the registration process."
+            "text":"2. Las validaciones se realizarán utilizando contratos inteligentes Ethereum"
         },
         {
             "elementid":"functional-item2-subitem3",
-            "text":"At any time a user wants, he must be able to follow the flow of a project, such as accessing, seeing its description, seeing the funds it has received, how much has been spent, how much it keeps, the transactions it has made with the funds and photos of the activities (optional), in order to generate good feelings in the donors."
-        },
-        {
-            "elementid":"functional-item2-subitem4",
-            "text":"The system should require validation from the organization prior to creating a project, to ensure that the organizations create the projects."
+            "text":"2. Cualquier usuario de la aplicación podrá acceder a la información transaccional"
         },
         {
             "elementid":"functional-item3-subitem1",
-            "text":"The duration of a project should not be more than one year. Given the above, when the time is up, the project will stop being in implementation mode and will go into historical mode."
+            "text":"1. Cualquier usuario de la aplicación podrá registrar una nueva entidad, sin embargo no será visible en la aplicación hasta que el equipo SCO verifique los datos"
         },
         {
             "elementid":"functional-item3-subitem2",
-            "text":"In any situation, users should have the option to share the projects on their social networks to attract the attention of more donors."
+            "text":"2. La aplicación deberá mostrarle al usuario los proyectos asociados a todas las entidades en el sistema, siempre y cuando estén activos"
         },
         {
             "elementid":"functional-item3-subitem3",
-            "text":"When creating a new project, the entity must establish an economic goal, which can be exceeded, but serves as a reference to see the growth of donations."
+            "text":"3. Todo proyecto debe ser visible si su estado es diferente de false"
         },
         {
             "elementid":"functional-item4-subitem1",
-            "text":"The user can only read or view the information but cannot alter it. It should be considered that the information can be copied or printed."
+            "text":"1. La aplicación deberá mostrar los datos transaccionales en su interfaz o puede redirigir al usuario al explorador de transacciones ethereum"
         },
         {
             "elementid":"nonfunctional-item1-subitem1",
@@ -172,59 +168,59 @@
           },
           {
             "elementid":"requirements-nav-list",
-            "text":"Requeriments"
+            "text":"Principios SCO"
           },
           {
             "elementid":"diagrams-nav-list",
-            "text":"Diagrams"
+            "text":"Diagramas SCO"
           },
           {
             "elementid":"formats-nav-list",
-            "text":"UMB Formats"
+            "text":"Equipo SCO"
           },
           {
             "elementid":"firsttrigger",
-            "text":"Home"
+            "text":"Que somos"
           },
           {
             "elementid":"secondtrigger",
-            "text":"Functional"
+            "text":"Funcionales"
           },
           {
             "elementid":"thirdtrigger",
-            "text":"Non-Functional"
+            "text":"Técnicos"
           },
           {
             "elementid":"tenthtrigger",
-            "text":"Use Cases"
+            "text":"Diagramas"
           },
           {
             "elementid":"eleventhtrigger",
-            "text":"Givi001"
+            "text":"Esteban"
           },
           {
             "elementid":"twelvethtrigger",
-            "text":"Givi010"
+            "text":"Marcela"
           },
           {
             "elementid":"usecase-title",
-            "text":"Use Cases"
+            "text":"Diagramas que usamos!"
           },
           {
             "elementid":"siguemeorg-title",
-            "text":"SiguemeORG"
+            "text":"SCO"
           },
           {
             "elementid":"what",
-            "text":"SiguemeORG is an idea that born to improve the donations trazability, we could help, we could build a better world."
+            "text":"SCO es una app que permite hacer veeduría a las donaciones, todos ganan!"
           },
           {
             "elementid":"why",
-            "text":"Nobody says that this life is easy, Some of us have had better opportunities than others. ¡Help those others with this app!."
+            "text":"Además es el camino para evitar la corrupción haciendo felices a personas que lo necesitan"
           },
           {
             "elementid":"how",
-            "text":"Using blockchain we will can show the donation money destination, this is the new wave!"
+            "text":"Todo esto utilizando los contratos inteligentes de Ethereum, fácil, novedoso y seguro!"
           }
     ]
 }
