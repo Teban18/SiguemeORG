@@ -43,31 +43,31 @@
         },
         {
             "elementid":"functional-item1",
-            "text":"SCO deberá permitirle al usuario realizar transacciones blockchain"
+            "text":"SCO deberá permitirle a los usuarios realizar donaciones de manera eficiente"
         },
         {
             "elementid":"functional-item2",
-            "text":"SCO no deberá contar con base de datos local dado su funcionamiento descentralizado"
+            "text":"SCO no deberá tener base de datos local dado su funcionamiento descentralizado"
         },
         {
             "elementid":"functional-item3",
-            "text":"SCO le deberá permitir al usuario la inscripción de entidades y proyectos asociados "
+            "text":"SCO deberá permitirle a los usuarios la creación de entidades y proyectos"
         },
         {
             "elementid":"functional-item4",
-            "text":"SCO debe permitir la visualizacion de las transacciones realizadas a cada proyecto"
+            "text":"SCO debe permitirle a los usuarios la visualizacion de todas las donaciones realizadas"
         },
         {
             "elementid":"functional-item1-subitem1",
-            "text":"1. El usuario no deberá registrarse en la aplicación para poder realizar transacciones"
+            "text":"1. El usuario no deberá registrarse en la aplicación para poder realizar donaciones"
         },
         {
             "elementid":"functional-item1-subitem2",
-            "text":"2. El usuario deberá utilizar la interfaz Metamask para gestionar los pagos de forma eficiente"
+            "text":"2. El usuario deberá tener una wallet blockchain para gestionar los pagos de forma segura"
         },
         {
             "elementid":"functional-item2-subitem1",
-            "text":"1. La información transaccional de SCO deberá quedar almacenada en la red blockchain Ethereum"
+            "text":"1. La información de las donaciones deberá quedar almacenada en la red blockchain Ethereum"
         },
         {
             "elementid":"functional-item2-subitem2",
@@ -75,7 +75,7 @@
         },
         {
             "elementid":"functional-item2-subitem3",
-            "text":"2. Cualquier usuario de la aplicación podrá acceder a la información transaccional"
+            "text":"2. Los contratos inteligentes deberán garantizar la integridad de la información"
         },
         {
             "elementid":"functional-item3-subitem1",

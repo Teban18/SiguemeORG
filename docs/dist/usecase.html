@@ -6,53 +6,47 @@
 </head>
 <body>
   <main>
+    <nav aria-label="breadcrumb" class="main-breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Que somos</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Diagramas</li>
+      </ol>
+    </nav>
     <br>
     <div class="container">
       <div class="row">
-        <div class="col-sm">
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="images/transaccion.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Transacción</h5>
-              <p class="card-text">caso de uso relativo a la transacción</p>
-              <a href="" id="thirteenthtrigger" class="btn btn-primary">Abrir</a>
+        <div class="col-sm-8">
+          <div class="card">
+            <div class="card-body" style=" font-size: large;">
+              Estos diagramas muestran la interacción entre los actores y el sistema, se pueden ver responsabilidades
             </div>
+            <hr>
+            <a href="" id="thirteenthtrigger" class="text-center">caso de uso relativo a la transacción</a>
+            <hr>
+            <a href="" id="fourteenthtrigger" class="text-center">caso de uso relativo a entidades y proyectos</a>
+            <hr>
+            <a href="" id="fifteenthtrigger" class="text-center">caso de uso relativo a la trazabilidad</a>
+            <hr>
           </div>
         </div>
-        <div class="col-sm">
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="images/Gestionentidades.png" height="178px"  alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Entidades y proyectos</h5>
-              <p class="card-text">caso de uso relativo a entidades y proyectos</p>
-              <a href="" id="fourteenthtrigger" class="btn btn-primary">Abrir</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm">
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="images/trazable.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Trazabilidad</h5>
-              <p class="card-text">caso de uso relativo a la trazabilidad</p>
-              <a href="" id="fifteenthtrigger" class="btn btn-primary">Abrir</a>
-            </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body" style=" font-size: large;">
+              <div id="diagramrotate"></div>
+            </div>    
           </div>
         </div>
       </div>
+      <br>
       <div class="row">
-        <div id="diagramrotate"></div>
-      </div>
-  </main>
-  <footer class="py-4 bg-light mt-auto">
-    <div class="container-fluid">
-        <div class="d-flex align-items-center justify-content-between small">
-            <div class="text-muted">Copyright &copy; Your Website 2019</div>
-            <div>
-                <a href="#">Equipo SCO</a>
-            </div>
+        <div class="col-lg col-centered">
+          <div id="diagramrotate">
+          </div>
         </div>
+      </div>
     </div>
+  </main>
+  <footer class="py-4 bg-white mt-auto">
   </footer>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
