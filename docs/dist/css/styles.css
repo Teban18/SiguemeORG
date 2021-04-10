@@ -10270,3 +10270,7 @@ body {
 }
 
 .elements a:hover {background-color: #f1f1f1}
+
+.table td, .table th {
+  border: none;
+}

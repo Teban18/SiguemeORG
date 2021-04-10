@@ -43,11 +43,11 @@
         },
         {
             "elementid":"functional-item1",
-            "text":"SCO deberá permitirle a los usuarios realizar donaciones de manera eficiente"
+            "text":"SCO deberá permitirle a los usuarios realizar donaciones con Ethers"
         },
         {
             "elementid":"functional-item2",
-            "text":"SCO no deberá tener base de datos local dado su funcionamiento descentralizado"
+            "text":"SCO no deberá utilizar BD dada su estructura descentralizada (DAPP)"
         },
         {
             "elementid":"functional-item3",
@@ -59,11 +59,11 @@
         },
         {
             "elementid":"functional-item1-subitem1",
-            "text":"1. El usuario no deberá registrarse en la aplicación para poder realizar donaciones"
+            "text":"1. La aplicación deberá permitirle a los usuarios realizar donaciones siempre y cuando tengan su wallet conectada"
         },
         {
             "elementid":"functional-item1-subitem2",
-            "text":"2. El usuario deberá tener una wallet blockchain para gestionar los pagos de forma segura"
+            "text":"2. La aplicación no deberá solicitar datos personales a los usuarios para realizar donaciones"
         },
         {
             "elementid":"functional-item2-subitem1",
@@ -75,23 +75,23 @@
         },
         {
             "elementid":"functional-item2-subitem3",
-            "text":"2. Los contratos inteligentes deberán garantizar la integridad de la información"
+            "text":"2. Los contratos inteligentes deberán garantizar la correcta validación de la información"
         },
         {
             "elementid":"functional-item3-subitem1",
-            "text":"1. Cualquier usuario de la aplicación podrá registrar una nueva entidad, sin embargo no será visible en la aplicación hasta que el equipo SCO verifique los datos"
+            "text":"1. Cualquier usuario podrá registrar una nueva entidad, sin embargo no será visible en la aplicación hasta que el equipo SCO verifique los datos"
         },
         {
             "elementid":"functional-item3-subitem2",
-            "text":"2. La aplicación deberá mostrarle al usuario los proyectos asociados a todas las entidades en el sistema, siempre y cuando estén activos"
+            "text":"2. Cualquier usuario podrá registrar un nuevo proyecto, sin embargo no será visible en la aplicación hasta que el equipo SCO verifique los datos"
         },
         {
             "elementid":"functional-item3-subitem3",
-            "text":"3. Todo proyecto debe ser visible si su estado es diferente de false"
+            "text":"3. La aplicación deberá mostrarle al usuario unicamente los proyectos activos"
         },
         {
             "elementid":"functional-item4-subitem1",
-            "text":"1. La aplicación deberá mostrar los datos transaccionales en su interfaz o puede redirigir al usuario al explorador de transacciones ethereum"
+            "text":"1. La aplicación deberá mostar las donaciones realizadas en su interfaz o permitirle al usuario acceder al explorador blockchain"
         },
         {
             "elementid":"nonfunctional-item1-subitem1",
