@@ -8,7 +8,7 @@
 
 
 function loadPages(data){  
-    $(data.trigger).on("click",function(event){
+    $(data.trigger).on(data.event,function(event){
         event.preventDefault();
         try{
         $(data.container).load(data.linkref)

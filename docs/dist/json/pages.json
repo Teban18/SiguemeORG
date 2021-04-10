@@ -4,42 +4,56 @@
         {
             "trigger":"#secondtrigger",
             "container":"#allcontainer",
+            "event":"click",
             "linkref":"./functional.html"
         },
         {
             "trigger":"#thirdtrigger",
             "container":"#allcontainer",
+            "event":"click",
             "linkref":"./nonfunctional.html"
         },
         {
             "trigger":"#tenthtrigger",
             "container":"#allcontainer",
+            "event":"click",
             "linkref":"./usecase.html"
         },
         {
             "trigger":"#eleventhtrigger",
             "container":"#allcontainer",
+            "event":"click",
             "linkref":"./Esteban.html"
         },
         {
             "trigger":"#twelvethtrigger",
             "container":"#allcontainer",
+            "event":"click",
             "linkref":"./Marcela.html"
         },
         {
             "trigger":"#thirteenthtrigger",
             "container":"#diagramrotate",
+            "event":"mouseover",
             "linkref":"./images/transaccion.html"
         },
         {
             "trigger":"#fourteenthtrigger",
             "container":"#diagramrotate",
+            "event":"mouseover",
             "linkref":"./images/Gestionentidades.html"
         },
         {
             "trigger":"#fifteenthtrigger",
             "container":"#diagramrotate",
+            "event":"mouseover",
             "linkref":"./images/trazable.html"
+        },
+        {
+            "trigger":"#sixteenthtrigger",
+            "container":"#smartcontractesteban",
+            "event":"mouseover",
+            "linkref":"./images/scesteban.html"
         }
     ]
 }
